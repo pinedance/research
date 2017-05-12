@@ -1,0 +1,49 @@
+---
+- left:
+    title: zayo 고방검색기(formulafinder)
+    desc: 웹상에 상한론과 금궤요략 등 고방을 구성 본초로 검색할 수 있는 고방검색기
+    direct: https://pinedance.github.io/zayo-gofang/formulafinder.html
+    post: https://goo.gl/rTi3X1
+    img: data/images/zayo-formulafinder.png
+  right:
+    title: zayo AHP
+    desc: AHP (Analytic Hierarchy Process)로 결정을 도출해 주는 어플이다.
+    direct: https://pinedance.github.io/zayo-ahp/ahp.html
+    post: https://goo.gl/pHhqvw
+    img: data/images/zayo-ahp.png
+- left:
+    title: zayo MATH
+    desc: 초등 저학년을 위한 덧셈뺄셈 연습 App
+    direct: https://pinedance.github.io/zayo-math/math.html
+    post: https://goo.gl/0WyLxp
+    img: data/images/zayo-math.png
+  right:
+    title: 준비중
+    desc: ''
+    direct: ''
+    post:
+    img: data/images/700x400.gif
+- left:
+    title: 준비중
+    desc: ''
+    direct: ''
+    post:
+    img: data/images/700x400.gif
+  right:
+    title: 준비중
+    desc: ''
+    direct: ''
+    post:
+    img: data/images/700x400.gif
+- left:
+    title: 준비중
+    desc: ''
+    direct: ''
+    post:
+    img: data/images/700x400.gif
+  right:
+    title: 준비중
+    desc: ''
+    direct: ''
+    post:
+    img: data/images/700x400.gif

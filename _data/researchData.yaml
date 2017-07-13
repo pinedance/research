@@ -385,6 +385,12 @@
     summary: '한줄요약 : 청강의 처방은 이진탕, 사물탕, 사군자탕, 육미팔미의 변주다.[fig: <a href="data/images/CheongKangEuiGam/ClusterDensity.png">cluster</a>(<a href="data/images/CheongKangEuiGam/ClusterDensity2.png">확대</a>), <a href="data/images/CheongKangEuiGam/Density.png">density</a>(<a href="data/images/CheongKangEuiGam/Density2.png">확대</a>)]'
 - year: '2015'
   works:
+  - title: 【역서】 (국역)침구극비전
+    titleEn:
+    ref: https://www.gitbook.com/book/kmongoing/geukbi
+    year: "#year2015"
+    author: (원저) 김덕방 / (국역) 박상영, 오준호
+    cite: 한국한의학연구원
   - title: Analysis of the Co-occurrence of Acupoints and Pathologies Documented in the Classical Acupuncture Literature
     titleEn: Analysis of the Co-occurrence of Acupoints and Pathologies Documented in the Classical Acupuncture Literature
     ref: http://www.imr-cite.com/article/S2213-4220(15)00271-1/abstract

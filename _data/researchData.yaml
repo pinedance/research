@@ -333,6 +333,7 @@
     year: "#year2013"
     author: 오준호, 권오민
     cite: 민족문화 41()
+    summary: '관련자료 : <a target="_blank" href="http://www.bookpot.net/news/articleView.html?idxno=90">한의학 분야 번역현황 논문으로 총정리</a>]'
   - title: 조선후기 세시풍속과 의학 -의방합편(醫方合編) 월행(月行)을 중심으로-
     titleEn: A Study on Annual Cyclical Rituals and Medicine in the late Joseon Dynasty  - With focus on Uibanghappyeon 'Wolhaeng' -
     ref: http://society.kisti.re.kr/sv/SV_svpsbs03V.do?method=view&menuid=1&subid=13&atclCtrlNo=JAKO201325441241086
@@ -396,7 +397,7 @@
     ref: http://www.imr-cite.com/article/S2213-4220(15)00271-1/abstract
     year: "#year2015"
     author: Junho Oh
-    cite: 2015 ICCMR (Poster) -
+    cite: 2015 ICCMR (Poster)
     summary: '한줄요약 : 이렇게 표현하니까 병증과 경혈의 관계가 한눈에 보이지? [Related app: <a target="_blank" href="http://pinedance.github.io/demo.html#/accupoints-pathologies">accupoints-pathologies Demo</a>]'
   - title: 조선중기 침자수법 계족침법에 대한 문헌 고찰
     titleEn: Study of Chicken-Foot-Shaped Needling Method (Gaejokchimbup) from the Mid-Chosen Dynasty Era
@@ -457,7 +458,7 @@
     cite: 민족문화 2017;49:227-260
     summary: '한줄요약 : 조선후기 침은 서슬이 없는 침과 있는 침으로 크게 나눌 수 있다. 서슬이 없는 침으로 경혈에 자침했던 침은 원침(圓鍼)이고, 서슬이 있는 침 가운데 외과 시술에 사용했던 침은 종침(腫鍼), 방혈(放血)에 썼던 침은 삼릉침(三稜鍼)이다. 황제내경 구침(九鍼)에 얽매여서 해석해서는 안된다.'
   - title: 〔발표〕 계량적 분석을 통한 한국 전통 의학 주요 의서의 특징 비교
-    titleEn: 
+    titleEn:
     ref: http://www.koreaddm.org/
     year: "#year2017"
     author: 오준호

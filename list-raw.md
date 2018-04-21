@@ -1,0 +1,91 @@
+---
+layout: home
+title: list
+---
+
+<div class="section">
+	<div class="container" >
+
+		{% include header.md %}
+
+
+	</div>
+</div>
+
+{% for category in site.data.cons.categorys %}
+{% assign cworks = site.data.researchData | where: "category", category %}
+{% if cworks.size > 0 %}
+
+  <div class="section">
+
+	  <div class="container">
+
+	  	<h2>{{ category }}</h2>
+
+		{% for year in site.data.cons.years %}
+		{% assign works = cworks | where: "year", year %}
+		{% if works.size > 0 %}
+
+		<div class="panel panel-default">
+
+		  <div class="panel-heading">
+		    <h3 class="panel-title">{{ year }}년도</h3>
+		  </div>
+
+		  <div class="panel-body">
+			{% for work in works %}
+			<p>
+			{% case work.category %}
+		    {% when "논문" %}
+
+				{% assign gl = "glyphicon-file" %}
+				{% if work.localfile %}
+				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank">
+					<span class="glyphicon {{ gl }}" aria-hidden="true"></span>
+				</a>
+				{% else %}
+					<span class="glyphicon {{ gl }}" aria-hidden="true"></span>
+				{% endif %}
+
+			    &nbsp; {{ work.author }}. {{ work.title }}. {{ work.published.by }}. {{ work.year }};{{ work.published.vol }}:{{ work.published.page }}.&nbsp;&nbsp;
+
+		    {% when "저서" or "역서" %}
+				<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+				&nbsp; {{ work.author }}. {{ work.title }}. {{ work.published.by }}. {{ work.year }}.&nbsp;&nbsp;
+		    {% else %}
+
+				{% assign gl = "glyphicon-paperclip" %}
+				{% if work.localfile %}
+				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank">
+					<span class="glyphicon {{ gl }}" aria-hidden="true"></span>
+				</a>
+				{% else %}
+					<span class="glyphicon {{ gl }}" aria-hidden="true"></span>
+				{% endif %}
+
+				&nbsp; {{ work.author }}. {{ work.title }}. {{ work.published.by }}. {{ work.year }}.&nbsp;&nbsp;
+			{% endcase %}
+
+
+
+
+
+				{% if work.ref %}
+				<a href="{{ work.ref }}" target="_blank">
+					<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+				{% endif %}
+				</a>
+			</p>
+			{% endfor %}
+		  </div>
+
+		</div>
+
+		{% endif %}
+		{% endfor %}
+
+	</div>
+</div>
+
+{% endif %}
+{% endfor %}

@@ -949,3 +949,20 @@
   published:
     by: 한국한의학연구원
   summary: "팔맥교회혈을 조합하여 임상에 활용했던 조선의 침법"
+
+# 2018
+
+- noo: '01'
+  category: "논문"
+  title: 의학 사상의 유사성은 계량 분석 될 수 있는가
+  titleEn: Can Similarities in Medical thought be Quantified
+  ref: 
+  localfile: pdf
+  year: "2018"
+  author: 오준호
+  published:
+    by: 대한한의학원전학회지
+    vol: "31(2)"
+    page: "71-82"
+  summary: ''
+ 

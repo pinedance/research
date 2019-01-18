@@ -816,7 +816,7 @@
   category: "논문"
   title: 조선중기 침자수법 계족침법에 대한 문헌 고찰
   titleEn: Study of Chicken-Foot-Shaped Needling Method (Gaejokchimbup) from the Mid-Chosen Dynasty Era
-  ref: http://www.kjacupuncture.org/cite/view.html?uid=712&sort=&scale=&key=year&keyword=&s_v=32&s_n=1&pn=vol&year=2015&vmd=Full
+  ref: "https://doi.org/10.14406/acu.2015.003"
   localfile: pdf
   year: "2015"
   author: 오준호
@@ -869,8 +869,8 @@
 - noo: '02'
   category: "논문"
   title: 고의서에 나타난 경혈과 병증의 연관성 측정 및 시각화 <sub>- 침구자생경 분석 예를 중심으로 -</sub>
-  titleEn: Measure of the Associations of Accupoints and Pathologies Documented in the Classical Acupuncture Literature
-  ref: http://www.kjacupuncture.org/cite/view.html?uid=741&sort=&scale=&key=year&keyword=&s_v=33&s_n=1&pn=vol&year=2016&vmd=Full
+  titleEn: "Measure of the Associations of Accupoints and Pathologies Documented in the Classical Acupuncture Literature"
+  ref: "https://doi.org/10.14406/acu.2016.003"
   localfile: pdf
   year: "2016"
   author: 오준호
@@ -979,12 +979,12 @@
     vol: "31(1)"
     page: "57-70"
   summary: "동의보감에 대해 몰랐던 사실들, 아직도 많다."
-  
+
 - noo: '03'
   category: "논문"
   title: "15-16세기 조선 의학 관료의 신분 변천:양성이씨 세전 사례를 중심으로"
   titleEn: "The Change of the Status of Joseon Medical Bureaucrats in the 15th and 16th Centuries"
-  ref: ""
+  ref: "https://www.medhist.or.kr/journal/view.php?number=2352"
   localfile: pdf
   year: "2018"
   author: 박훈평, 오준호
@@ -993,3 +993,16 @@
     vol: "27(3)"
     page: "295-322"
   summary: "조선에서 의관들은 언제부터, 왜 천시 받았을까"
+
+- noo: '04'
+  category: "역서"
+  title: "(국역)상한명리론"
+  titleEn:
+  ref: ""
+  year: "2018"
+  author: 성무기(成無己) 원저，오준호 국역
+  published:
+    by: 한국한의학연구원
+  summary: "상한학파(傷寒學派)에게 이론적 기반을 제공한 문제작!"
+
+# 2019

@@ -1006,3 +1006,17 @@
   summary: "상한학파(傷寒學派)에게 이론적 기반을 제공한 문제작!"
 
 # 2019
+
+- noo: '01'
+  category: "논문"
+  title: 한의학 고문헌 데이터 분석을 위한 단어 임베딩 기법 비교：자연어처리 방법을 적용하여
+  titleEn: Comparison of Word Embedding Techniques in Traditional Korean Medicine for Analysis of Data：implementation of natural language processing method
+  ref: "https://jkmc.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000001846&artiId=SJ0000001374&sereId=SER000000001&submCnt=2&indexNo=4"
+  localfile: pdf
+  year: "2019"
+  author: 오준호
+  published:
+    by: 대한한의학원전학회지
+    vol: "32(1)"
+    page: "61-74"
+  summary: "필요한 분석에 따라 단어 임베딩 기법을 이해해 보자."

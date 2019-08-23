@@ -794,7 +794,7 @@
   category: "역서"
   title: (국역)침구극비전
   titleEn:
-  ref: https://www.gitbook.com/book/kmongoing/geukbi
+  ref: http://info.mediclassics.kr/bookshelf/books/geukbi
   year: "2015"
   author: 김덕방 원저，박상영 오준호 국역
   published:
@@ -943,7 +943,7 @@
   category: "역서"
   title: (국역)장진요편
   titleEn:
-  ref: https://legacy.gitbook.com/book/kmongoing/jangjinyopyeon/details
+  ref: http://info.mediclassics.kr/bookshelf/books/jjyopyeon
   year: "2017"
   author: 송계(松溪) 원저，오준호 국역
   published:
@@ -997,8 +997,8 @@
 - noo: '04'
   category: "역서"
   title: "(국역)상한명리론"
-  titleEn:
-  ref: ""
+  titleEn: "Sanghanmyeonglilon"
+  ref: "http://info.mediclassics.kr/bookshelf/books/shmyungri"
   year: "2018"
   author: 성무기(成無己) 원저，오준호 국역
   published:

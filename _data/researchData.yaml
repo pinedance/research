@@ -1020,3 +1020,17 @@
     vol: "32(1)"
     page: "61-74"
   summary: "필요한 분석에 따라 단어 임베딩 기법을 이해해 보자."
+
+- noo: '02'
+  category: "논문"
+  title: 한의학 고문헌 텍스트 분석을 위한 비지도학습 기반 단어 추출 방법 비교
+  titleEn: Comparison of Word Embedding Techniques in Traditional Korean Medicine for Analysis of Data：implementation of natural language processing method
+  ref: "https://jkmc.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000001846&artiId=SJ0000001418&sereId=SER000000001&submCnt=2"
+  localfile: pdf
+  year: "2019"
+  author: 오준호
+  published:
+    by: 대한한의학원전학회지
+    vol: "32(3)"
+    page: "47-57"
+  summary: "용어집 없이 텍스트 토큰화(tokenization), 혹은 단어 구분(segmentation) 어떻게 할까?"

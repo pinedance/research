@@ -40,7 +40,7 @@ title: list
 
 				{% assign gl = "glyphicon-file" %}
 				{% if work.localfile %}
-				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank">
+				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}">
 					<span class="glyphicon {{ gl }}" aria-hidden="true"></span>
 				</a>
 				{% else %}
@@ -56,7 +56,7 @@ title: list
 
 				{% assign gl = "glyphicon-paperclip" %}
 				{% if work.localfile %}
-				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank">
+				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}">
 					<span class="glyphicon {{ gl }}" aria-hidden="true"></span>
 				</a>
 				{% else %}

@@ -38,7 +38,7 @@ title: list
 				<p class="title">{{ work.title }}
 
 					{% if work.localfile %}
-					<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank">
+					<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank"  download="({{work.author}}){{ work.title }}.{{ work.localfile }}">
 						<span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
 					</a>
 					{% endif %}

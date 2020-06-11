@@ -1034,3 +1034,30 @@
     vol: "32(3)"
     page: "47-57"
   summary: "용어집 없이 텍스트 토큰화(tokenization), 혹은 단어 구분(segmentation) 어떻게 할까?"
+
+# 2020
+
+- noo: '01'
+  category: "역서"
+  title: 경혈해설(經穴解說)
+  titleEn:
+  ref: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=237913565
+  year: "2020"
+  author: 후지모토 렌푸 원저，박상영 오준호 국역
+  published:
+    by: 물고기숲
+    date: "2020-04-15"
+
+- noo: '02'
+  category: "논문"
+  title: 한의학 고문헌 텍스트에서의 저자 판별：기능어의 역할을 중심으로
+  titleEn: 	A comparative study of feature extraction methods for authorship attribution in the text of East Asian traditional medicine：Focusing on function words
+  ref: "https://jkmc.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000001846&artiId=SJ0000001460&sereId=SER000000001&submCnt=2&indexNo=4"
+  localfile: pdf
+  year: "2020"
+  author: 오준호
+  published:
+    by: 대한한의학원전학회지
+    vol: "33(2)"
+    page: "51-59"
+  summary: "한의학 고문헌 텍스트 저자 판별에서도 기능어(허사)의 역할이 중요하다."

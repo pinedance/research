@@ -1,9 +1,11 @@
 <div class="page-header">
-	<h1>List of Research Results
-		<small>Articles and books ...
-			<sub><a href="//pinedance.github.io"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></sub>
-			<sub><a href="{{ site.baseurl }}/list">보기좋게</a></sub>
-			<sub><a href="{{ site.baseurl }}/list-raw">인용형식</a></sub>
+	<h1>Researchs | Oh Junho
+		<small>
+			<sub><a href="//pinedance.github.io">Home</a> ∥ </sub>
+			<sub><a href="{{ site.baseurl }}/list">Research list</a> ∥ </sub>
+			<sub><a href="{{ site.baseurl }}/list-raw">Research list（ref form）</a>∥ </sub>
+			<sub><a href="{{ site.baseurl }}/about">
+			About me</a></sub>
 		</small>
 	</h1>
 </div>

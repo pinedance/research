@@ -13,7 +13,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>research</title>
+	<link rel="icon" href="{{site.favicon}}">
+  <title>{{ site.title }} | {{ site.author.name }}</title>
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ site.baseurl }}/public/css/custom.css" rel="stylesheet">
@@ -26,11 +27,29 @@
 
 <body>
 
-	{{ content }}
+	<div class="section">
+		<div class="container">
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+			{% include header.md %}
 
+		</div>
+	</div>
+
+	<div class="section">
+	  <div class="container">
+
+		<h2> {{ page.title }}
+		  <small> {{ page.subtitle }} </small>
+		</h2>
+		<br>
+
+				{{ content }}
+
+		</div>
+	</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>

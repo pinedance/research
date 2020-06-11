@@ -1,5 +1,5 @@
 <div class="page-header">
-	<h1>{{ site.tile }} | {{ site.author.name }}
+	<h1>{{ site.title }} | {{ site.author.name }}
 		<small>
 			<sub><a href="//pinedance.github.io">Home</a> ∥ </sub>
 			<sub><a href="{{ site.baseurl }}/list">Research list</a> ∥ </sub>

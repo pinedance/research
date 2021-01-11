@@ -1035,13 +1035,24 @@
     page: "47-57"
   summary: "용어집 없이 텍스트 토큰화(tokenization), 혹은 단어 구분(segmentation) 어떻게 할까?"
 
+- noo: '03'
+  category: "역서"
+  title: 국역 의방유취41（구설문1，구설문2）
+  titleEn:
+  ref: "http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788982750991&orderClick=JAE"
+  year: "2019"
+  author: 김예몽 외 원저，오준호 국역
+  published:
+    by: 세종대왕기념사업회
+    date: "2019-12-30"
+
 # 2020
 
 - noo: '01'
   category: "역서"
   title: 경혈해설(經穴解說)
   titleEn:
-  ref: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=237913565
+  ref: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=237913565"
   year: "2020"
   author: 후지모토 렌푸 원저，박상영 오준호 국역
   published:
@@ -1061,3 +1072,14 @@
     vol: "33(2)"
     page: "51-59"
   summary: "한의학 고문헌 텍스트 저자 판별에서도 기능어(허사)의 역할이 중요하다."
+
+- noo: '03'
+  category: "역서"
+  title: 국역 제중시(濟衆詩)
+  titleEn:
+  ref: "http://info.mediclassics.kr/bookshelf/books/jezhong"
+  year: "2020"
+  author: 원작자 미상，오준호 국역
+  published:
+    by: 한국한의학연구원
+    date: "2020-12-10"

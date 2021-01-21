@@ -193,7 +193,7 @@
 
 - noo: '01'
   category: "역서"
-  title: (국역)실험단방
+  title: 〔국역〕실험단방
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1809_0001
   year: "2010"
@@ -203,7 +203,7 @@
 
 - noo: '02'
   category: "역서"
-  title: (국역)식의심감
+  title: 〔국역〕식의심감
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1812_0001
   year: "2010"
@@ -213,7 +213,7 @@
 
 - noo: '03'
   category: "역서"
-  title: (국역)의원거강 01
+  title: 〔국역〕의원거강 01
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1810_0001
   year: "2010"
@@ -223,7 +223,7 @@
 
 - noo: '04'
   category: "역서"
-  title: (국역)의원거강 02
+  title: 〔국역〕의원거강 02
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1810_0002
   year: "2010"
@@ -352,7 +352,7 @@
 
 - noo: '01'
   category: "역서"
-  title: (국역)본초유함요령
+  title: 〔국역〕본초유함요령
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1971_0001
   year: "2011"
@@ -362,7 +362,7 @@
 
 - noo: '02'
   category: "역서"
-  title: (국역)침구경험방
+  title: 〔국역〕침구경험방
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1970_0001
   year: "2011"
@@ -792,13 +792,14 @@
 
 - noo: '01'
   category: "역서"
-  title: (국역)침구극비전
+  title: 〔국역〕침구극비전
   titleEn:
-  ref: http://info.mediclassics.kr/bookshelf/books/geukbi
+  ref: "https://info.mediclassics.kr/bookshelf/books/20151214_geukbi"
   year: "2015"
   author: 김덕방 원저，박상영 오준호 국역
   published:
     by: 한국한의학연구원
+    date: "2015-12-14"
 
 - noo: '02'
   category: "발표"
@@ -858,13 +859,14 @@
 
 - noo: '01'
   category: "역서"
-  title: (국역)상한경험방
+  title: 〔국역〕상한경험방
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98775245
   year: "2016"
   author: 소백누인 원저，오준호 박상영 국역
   published:
     by: 수퍼노바
+    date: "2016-12-05"
 
 - noo: '02'
   category: "논문"
@@ -890,17 +892,29 @@
   published:
     by: 2016년 제24회 기초의학 학술대회 (2016.06.24)
 
+- noo: '04'
+  category: "역서"
+  title: 〔국역〕제세보감
+  titleEn:
+  ref: "https://info.mediclassics.kr/bookshelf/books/20161130_jese"
+  year: "2016"
+  author: 문기홍 원저，구현희 오준호 국역
+  published:
+    by: 한국한의학연국원
+    date: "2016-11-30"
+
 # 2017
 
 - noo: '01'
   category: "역서"
-  title: (국역)경보신편
+  title: 〔국역〕경보신편
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?partner=rss&ISBN=K962531399
   year: "2017"
   author: 원저미상，구민석 오준호 국역
   published:
     by: 수퍼노바
+    date: "2017-06-30"
 
 - noo: '02'
   category: "논문"
@@ -941,13 +955,14 @@
 
 - noo: '05'
   category: "역서"
-  title: (국역)장진요편
+  title: 〔국역〕장진요편
   titleEn:
-  ref: http://info.mediclassics.kr/bookshelf/books/jjyopyeon
+  ref: "https://info.mediclassics.kr/bookshelf/books/20171211_jjyopyeon"
   year: "2017"
   author: 송계(松溪) 원저，오준호 국역
   published:
     by: 한국한의학연구원
+    date: "2017-12-11"
   summary: "팔맥교회혈을 조합하여 임상에 활용했던 조선의 침법"
 
 # 2018
@@ -996,13 +1011,14 @@
 
 - noo: '04'
   category: "역서"
-  title: "(국역)상한명리론"
+  title: "〔국역〕상한명리론"
   titleEn: "Sanghanmyeonglilon"
-  ref: "http://info.mediclassics.kr/bookshelf/books/shmyungri"
+  ref: "https://info.mediclassics.kr/bookshelf/books/20181212_shmyungri"
   year: "2018"
   author: 성무기(成無己) 원저，오준호 국역
   published:
     by: 한국한의학연구원
+    date: "2018-12-12"
   summary: "상한학파(傷寒學派)에게 이론적 기반을 제공한 문제작!"
 
 # 2019
@@ -1046,6 +1062,18 @@
     by: 세종대왕기념사업회
     date: "2019-12-30"
 
+- noo: '04'
+  category: "역서"
+  title: "〔국역〕상한명리속론"
+  titleEn: "Sanghanmyeonglisoklon"
+  ref: "https://info.mediclassics.kr/bookshelf/books/20191213_shsokron"
+  year: "2019"
+  author: 도화(陶華) 원저，오준호 국역
+  published:
+    by: 한국한의학연구원
+    date: "2019-12-13"
+  summary: "상한명리론의 후속편"
+
 # 2020
 
 - noo: '01'
@@ -1077,7 +1105,7 @@
   category: "역서"
   title: 국역 제중시(濟衆詩)
   titleEn:
-  ref: "http://info.mediclassics.kr/bookshelf/books/jezhong"
+  ref: "https://info.mediclassics.kr/bookshelf/books/20201210_jejungsi"
   year: "2020"
   author: 원작자 미상，오준호 국역
   published:

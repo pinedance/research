@@ -19,10 +19,12 @@ subtitle: "Articles and books ..."
 
 		{% for work in works %}
 
-		<blockquote class="work">
+		<blockquote class="work" id="{{ work.year }}-{{ work.noo }}">
 
-			<p class="title">{{ work.title }}
-
+			<p class="title">
+				
+				<span>{{ work.title }}</span>
+				<span>
 				{% if work.localfile %}
 				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank"  download="({{work.author}}){{ work.title }}.{{ work.localfile }}">
 					<span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
@@ -35,9 +37,10 @@ subtitle: "Articles and books ..."
 				</a>
 				{% endif %}
 
-				<a href="#year{{ work.year }}">
-					<span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+				<a href="{{ site.baseurl }}/list.html#{{ work.year }}-{{ work.noo }}">
+					<span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
 				</a>
+				</span>
 			</p>
 
 			{% if work.titleEn %}

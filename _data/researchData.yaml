@@ -1111,3 +1111,33 @@
   published:
     by: 한국한의학연구원
     date: "2020-12-10"
+
+# 2021
+
+- noo: '01'
+  category: "논문"
+  title: 한의학 고문헌 텍스트에서의 인용문 추정과 탐색
+  titleEn: Detecting Local Text Reuse in the Text of East Asian Traditional Medicine
+  ref: "https://jkmc.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000001846&artiId=SJ0000001491&sereId=SER000000001&submCnt=2"
+  localfile: pdf
+  year: "2021"
+  author: 오준호
+  published:
+    by: 대한한의학원전학회지
+    vol: "34(1)"
+    page: "37-45"
+  summary: "한의학 고문헌 텍스트에서 인용문을 자동으로 탐색해 보자."
+
+- noo: '02'
+  category: "논문"
+  title: 조선 후기 의학의 표면과 이면：의학 지식 체계를 중심으로
+  titleEn: The surface and the back of late Joseon medicine：Centered on medical knowledge system
+  ref: "https://kjmh.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000000141&artiId=SJ0000000339&sereId=SER000000001&submCnt=3"
+  localfile: pdf
+  year: "2021"
+  author: 오준호
+  published:
+    by: 의사학
+    vol: "30(1)"
+    page: "69-100"
+  summary: "조선 후기 동의(東醫)와 명의(明醫)의 갈등 양상에 주목해 보자."

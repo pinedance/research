@@ -1056,7 +1056,7 @@
   titleEn:
   ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=858&GC=GD0E"
   year: "2019"
-  author: 내의원 원저，오준호 국역
+  author: "내의원 지음, 오준호 옮김"
   published:
     by: 세종대왕기념사업회
     date: "2019-12-30"
@@ -1106,10 +1106,21 @@
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20201210_jejungsi"
   year: "2020"
-  author: 원작자 미상，오준호 국역
+  author: "원작자 미상, 오준호 국역"
   published:
     by: 한국한의학연구원
     date: "2020-12-10"
+
+- noo: "04"
+  category: "역서"
+  title: 〔국역〕의방유취49（제기문1，제기문2）
+  titleEn:
+  ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=913&GC=GD0E0F"
+  year: "2020"
+  author: 내의원 지음，오준호 옮김
+  published:
+    by: 세종대왕기념사업회
+    date: "2020-12-30"
 
 # 2021
 
@@ -1151,3 +1162,41 @@
   published:
     by: 한국한의학연구원
     date: "2021-12-10"
+
+- noo: "04"
+  category: "역서"
+  title: 〔국역〕의방유취50（제기문3，제기문4）
+  titleEn:
+  ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=938&GC=GD0E0F"
+  year: "2021"
+  author: "내의원 지음, 오준호 옮김"
+  published:
+    by: 세종대왕기념사업회
+    date: "2021-12-30"
+
+# 2022
+
+- noo: "01"
+  category: "논문"
+  title: 기계 학습을 이용한 한의학 용어 유의어 사전 구축 방안
+  titleEn: "A Strategy for Constructing the Thesaurus of Traditional East Asian Medicine (TEAM) Terms With Machine Learning"
+  ref: "https://jkmc.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000001846&artiId=SJ0000001536&sereId=SER000000001&submCnt=2"
+  localfile: pdf
+  year: "2022"
+  author: 오준호
+  published:
+    by: 대한한의학원전학회지
+    vol: "35(1)"
+    page: "93-102"
+  summary: "기계 학습을 통해 한의학 용어 유의어 사전을 보다 쉽게 만들 수 없을까?"
+
+- noo: "03"
+  category: "역서"
+  title: "조선의서지 朝鮮醫書誌"
+  titleEn: 
+  ref: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=307495547"
+  year: "2022"
+  author: "미키 사카에(지은이), 오준호(옮긴이)"
+  published:
+    by: 문진
+    date: "2022-12-20"

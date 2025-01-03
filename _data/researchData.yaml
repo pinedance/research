@@ -1227,3 +1227,54 @@
   published:
     by: 한국한의학연구원
     date: "2023-12-12"
+
+- noo: "03"
+  category: "역서"
+  title: 〔국역〕의방유취66（해수문1）
+  titleEn:
+  ref: "http://book.sejongkorea.org/"
+  year: "2023"
+  author: 내의원 지음，오준호 옮김
+  published:
+    by: 세종대왕기념사업회
+    date: "2023-12-29"
+
+# 2024
+
+- noo: "01"
+  category: "논문"
+  title: "한의학 처방 분석 애플리케이션 개발：EveryFormula"
+  titleEn: "EveryFormula：Unlocking the Knowledge of Traditional East Asian Medicine Prescriptions with Data-Driven Analysis"
+  doi: "10.22674/KHMI-12-1-7"
+  ref: "https://doi.org/10.22674/KHMI-12-1-7"
+  localfile: pdf
+  year: "2024"
+  author: 오준호
+  published:
+    by: 한약정보연구회지
+    vol: "12(1)"
+    page: "83-93"
+  summary: "한의학 처방 분석 애플리케이션 개발 이야기"
+
+- noo: "02"
+  category: "저서"
+  title: 한의학 고문헌 분석을 통해 본 병증과 경혈의 관계 1
+  titleEn:
+  ref: "https://info.mediclassics.kr/bookshelf/books/tkm_acu_symp_01"
+  year: "2024"
+  author: 오준호 지음
+  published:
+    by: 한국한의학연구원
+    date: "2024-07-31"
+
+- noo: "03"
+  category: "역서"
+  title: 〔국역〕 일금방(一金方) 1
+  titleEn:
+  ref: "https://info.mediclassics.kr/bookshelf/books/20241210_ilgm1"
+  year: "2024"
+  author: 김홍제(金弘濟) 지음，오준호 국역
+  published:
+    by: 한국한의학연구원
+    date: "2024-12-10"
+

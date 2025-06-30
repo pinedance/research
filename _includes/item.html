@@ -1,0 +1,56 @@
+<div class="card mb-3" id="{{ work.year }}-{{ work.noo }}">
+    <div class="card-body">
+        <div class="d-flex justify-content-between">
+            <h5 class="card-title">
+                {% if work.category == '논문' or work.category == '저서역서' %}
+                <a href="{{ site.baseurl }}/{% if work.category == '논문' %}article{% else %}book{% endif %}/{{ work.year }}-{{ work.noo }}"
+                    class="stretched-link text-decoration-none text-dark">{{ work.title }}</a>
+                {% else %}
+                {{ work.title }}
+                {% endif %}
+            </h5>
+            <div class="text-nowrap">
+                {% if work.localfile %}
+                <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}"
+                    target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}"
+                    class="btn btn-light btn-sm" title="Download">
+                    <i class="bi-cloud-arrow-down-fill"></i>
+                </a>
+                {% endif %}
+                {% if work.ref %}
+                <a href="{{ work.ref }}" target="_blank" class="btn btn-light btn-sm" title="External Link">
+                    <i class="bi-link-45deg"></i>
+                </a>
+                {% endif %}
+                <a href="{{ site.baseurl }}/list.html#{{ work.year }}-{{ work.noo }}" class="btn btn-light btn-sm"
+                    title="Permalink">
+                    <i class="bi-paperclip"></i>
+                </a>
+            </div>
+        </div>
+
+        {% if work.titleEn %}
+        <h6 class="card-subtitle mb-2 text-muted">{{ work.titleEn }}</h6>
+        {% endif %}
+
+        <p class="card-text">
+            <small class="text-muted">{{ work.author }}. {{ work.published.by }}. {{ work.year }}{% if
+                work.published.vol %};{{ work.published.vol }}{% endif %}{% if work.published.page %}:{{
+                work.published.page }}{% endif %}</small>
+        </p>
+
+        {% if work.summary %}
+        <div class="alert alert-light mt-3" role="alert">
+            {{ work.summary }}
+        </div>
+        {% endif %}
+
+        {% if work.memo %}
+        <ul class="list-unstyled mt-3">
+            {% for memo in work.memo %}
+            <li class="text-muted"><small>{{ memo }}</small></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>

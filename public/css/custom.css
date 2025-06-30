@@ -13,3 +13,52 @@
 .author {
 	margin-bottom: 8px;
 }
+
+/* Modern Design Enhancements */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.main-header .text-secondary {
+    transition: color 0.2s ease-in-out;
+}
+
+.main-header .text-secondary:hover {
+    color: #0d6efd !important; /* Bootstrap primary color */
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.btn-light {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+}
+
+.btn-light:hover {
+    background-color: #dee2e6;
+    border-color: #dee2e6;
+}
+
+.alert-light {
+    background-color: #e2e3e5;
+    border-left: 4px solid #0d6efd;
+    color: #41464b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}

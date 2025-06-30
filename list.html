@@ -5,16 +5,16 @@ subtitle: "Articles and books ..."
 ---
 
 {% for year in site.data.cons.years %}
-{% assign works = site.data.researchData | where: "year", year %}
+{% assign works = site.data.research | where: "year", year %}
 {% if works.size > 0 %}
 
 <div class="row" id="year{{ year }}">
 
 	<div class="col-sm-12">
 
-			<div class="well">{{ year }}년도
-					<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-			</div>
+		<div class="well">{{ year }}년도
+			<span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+		</div>
 
 
 		{% for work in works %}
@@ -22,24 +22,37 @@ subtitle: "Articles and books ..."
 		<blockquote class="work" id="{{ work.year }}-{{ work.noo }}">
 
 			<p class="title">
-				
+
 				<span>{{ work.title }}</span>
 				<span>
-				{% if work.localfile %}
-				<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank"  download="({{work.author}}){{ work.title }}.{{ work.localfile }}">
-					<span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
-				</a>
-				{% endif %}
+					{% if work.localfile %}
+					<a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}"
+						target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}">
+						<span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
+					</a>
+					{% endif %}
 
-				{% if work.ref %}
-				<a href="{{ work.ref }}" target="_blank">
-					<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-				</a>
-				{% endif %}
+					{% if work.ref %}
+					<a href="{{ work.ref }}" target="_blank">
+						<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+					</a>
+					{% endif %}
 
-				<a href="{{ site.baseurl }}/list.html#{{ work.year }}-{{ work.noo }}">
-					<span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-				</a>
+					<a href="{{ site.baseurl }}/list.html#{{ work.year }}-{{ work.noo }}">
+						<span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+					</a>
+
+					{% if work.category == '논문' %}
+					<a href="{{ site.baseurl }}/article/{{ work.year }}-{{ work.noo }}">
+						<i class="fa-solid fa-plus"></i> 상세 정보
+					</a>
+					{% endif %}
+
+					{% if work.category == '저서역서' %}
+					<a href="{{ site.baseurl }}/book/{{ work.year }}-{{ work.noo }}">
+						<i class="fa-solid fa-plus"></i> 상세 정보
+					</a>
+					{% endif %}
 				</span>
 			</p>
 
@@ -62,16 +75,16 @@ subtitle: "Articles and books ..."
 
 			{% if work.summary %}
 			<div>
-				  <p class="text-success summary">
-					  {{work.summary}}
-				  </p>
+				<p class="text-success summary">
+					{{work.summary}}
+				</p>
 			</div>
 			{% endif %}
 
 			{% if work.memo %}
 			<ul class="text-info memo">
 				{% for memo in work.memo %}
-				<li >{{ memo }}</li>
+				<li>{{ memo }}</li>
 				{% endfor %}
 			</ul>
 			{% endif %}

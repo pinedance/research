@@ -36,6 +36,7 @@ google_analytics: UA-72863252-5
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -47,3 +48,32 @@ custom:
 # Build settings
 host: localhost
 port: 8384
+
+page_gen-dirs: false
+page_gen:
+- data: research
+  template: article
+  dir: article
+  # index_files: [true|false]
+  # name: [field used to generate the filename]
+  name_expr: record["year"] + "-" + record["noo"]
+  title: title
+  # title_expr: [a Ruby expression to generate the filename (alternative to title)]
+  # extension: [extension used to generate the filename.]
+  # filter: [property to filter data records by]
+  filter_condition: "record['category'] == '논문'"
+  # page_data_prefix: [prefix used to name variables]
+  debug: true
+- data: research
+  template: book
+  dir: book
+  # index_files: [true|false]
+  # name: [field used to generate the filename]
+  name_expr: record["year"] + "-" + record["noo"]
+  title: title
+  # title_expr: [a Ruby expression to generate the filename (alternative to title)]
+  # extension: [extension used to generate the filename.]
+  # filter: [property to filter data records by]
+  filter_condition: "record['category'] == '저서역서'"
+  # page_data_prefix: [prefix used to name variables]
+  debug: true

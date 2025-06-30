@@ -191,7 +191,7 @@
 # 2010
 
 - noo: "01"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕실험단방
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1809_0001
@@ -201,7 +201,7 @@
     by: 한국한의학연구원
 
 - noo: "02"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕식의심감
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1812_0001
@@ -211,7 +211,7 @@
     by: 한국한의학연구원
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕의원거강 01
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1810_0001
@@ -221,7 +221,7 @@
     by: 한국한의학연구원
 
 - noo: "04"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕의원거강 02
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1810_0002
@@ -350,7 +350,7 @@
 # 2011
 
 - noo: "01"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕본초유함요령
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1971_0001
@@ -360,7 +360,7 @@
     by: 한국한의학연구원
 
 - noo: "02"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕침구경험방
   titleEn:
   ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1970_0001
@@ -790,7 +790,7 @@
 # 2015
 
 - noo: "01"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕침구극비전
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20151214_geukbi"
@@ -857,7 +857,7 @@
 # 2016
 
 - noo: "01"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕상한경험방
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98775245
@@ -892,7 +892,7 @@
     by: 2016년 제24회 기초의학 학술대회 (2016.06.24)
 
 - noo: "04"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕제세보감
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20161130_jese"
@@ -905,7 +905,7 @@
 # 2017
 
 - noo: "01"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕경보신편
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?partner=rss&ISBN=K962531399
@@ -953,7 +953,7 @@
   summary: "동의보감 국내 간행본을 모아 교감하여 정본을 만들어 보았다."
 
 - noo: "05"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕장진요편
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20171211_jjyopyeon"
@@ -1009,7 +1009,7 @@
   summary: "조선에서 의관들은 언제부터, 왜 천시 받았을까"
 
 - noo: "04"
-  category: "역서"
+  category: "저서역서"
   title: "〔국역〕상한명리론"
   titleEn: "Sanghanmyeonglilon"
   ref: "https://info.mediclassics.kr/bookshelf/books/20181212_shmyungri"
@@ -1051,7 +1051,7 @@
   summary: "용어집 없이 텍스트 토큰화(tokenization), 혹은 단어 구분(segmentation) 어떻게 할까?"
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕의방유취41（구설문1，구설문2）
   titleEn:
   ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=858&GC=GD0E"
@@ -1062,7 +1062,7 @@
     date: "2019-12-30"
 
 - noo: "04"
-  category: "역서"
+  category: "저서역서"
   title: "〔국역〕상한명리속론"
   titleEn: "Sanghanmyeonglisoklon"
   ref: "https://info.mediclassics.kr/bookshelf/books/20191213_shsokron"
@@ -1076,7 +1076,7 @@
 # 2020
 
 - noo: "01"
-  category: "역서"
+  category: "저서역서"
   title: 경혈해설(經穴解說)
   titleEn:
   ref: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=237913565"
@@ -1101,7 +1101,7 @@
   summary: "한의학 고문헌 텍스트 저자 판별에서도 기능어(허사)의 역할이 중요하다."
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕제중시(濟衆詩)
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20201210_jejungsi"
@@ -1112,7 +1112,7 @@
     date: "2020-12-10"
 
 - noo: "04"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕의방유취49（제기문1，제기문2）
   titleEn:
   ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=913&GC=GD0E0F"
@@ -1153,7 +1153,7 @@
   summary: "조선 후기 동의(東醫)와 명의(明醫)의 갈등 양상에 주목해 보자."
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕한객치험(韓客治驗)
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20211210_hangaek"
@@ -1164,7 +1164,7 @@
     date: "2021-12-10"
 
 - noo: "04"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕의방유취50（제기문3，제기문4）
   titleEn:
   ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=938&GC=GD0E0F"
@@ -1191,7 +1191,7 @@
   summary: "기계 학습을 통해 한의학 용어 유의어 사전을 보다 쉽게 만들 수 없을까?"
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: "조선의서지 朝鮮醫書誌"
   titleEn: 
   ref: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=307495547"
@@ -1218,7 +1218,7 @@
   summary: "기계 학습을 이용해 한의학 처방을 분석해 보자."
 
 - noo: "02"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕상한치례(傷寒治例)
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20231212_sangchi"
@@ -1229,7 +1229,7 @@
     date: "2023-12-12"
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕의방유취66（해수문1）
   titleEn:
   ref: "http://book.sejongkorea.org/"
@@ -1257,7 +1257,7 @@
   summary: "한의학 처방 분석 애플리케이션 개발 이야기"
 
 - noo: "02"
-  category: "저서"
+  category: "저서역서"
   title: 한의학 고문헌 분석을 통해 본 병증과 경혈의 관계 1
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/tkm_acu_symp_01"
@@ -1268,7 +1268,7 @@
     date: "2024-07-31"
 
 - noo: "03"
-  category: "역서"
+  category: "저서역서"
   title: 〔국역〕 일금방(一金方) 1
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20241210_ilgm1"

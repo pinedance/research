@@ -63,7 +63,7 @@ page_gen:
   # filter: [property to filter data records by]
   filter_condition: "record['category'] == '논문'"
   # page_data_prefix: [prefix used to name variables]
-  debug: true
+  debug: false
 - data: research
   template: book
   dir: book
@@ -76,4 +76,4 @@ page_gen:
   # filter: [property to filter data records by]
   filter_condition: "record['category'] == '저서역서'"
   # page_data_prefix: [prefix used to name variables]
-  debug: true
+  debug: false

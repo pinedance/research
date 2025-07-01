@@ -56,35 +56,35 @@ layout: home
 
       <!-- Citation -->
       <div class="pb-3 mt-5 mb-4 border-bottom">
-        <h5 class="my-0 fw-normal">인용</h5>
+        <h5 class="my-0 fw-normal">인용 Citation</h5>
       </div>
       <div class="citation-styles mb-4">
         <p><strong>APA Style:</strong></p>
         <p class="text-muted small">
-          {{ page.author | split: ',' | first }}. ({{ page.year }}). <em>{{ page.title }}</em>. {{ page.published.by
-          }}.
-          {% if page.ref %}{{ page.ref }}{% endif %}
+          {% include citations/ala.html %}
         </p>
 
         <p><strong>MLA Style:</strong></p>
         <p class="text-muted small">
-          {{ page.author | split: ',' | first }}. "{{ page.title }}." <em>{{ page.published.by }}</em>, {{ page.year
-          }}.
-          {% if page.ref %}{{ page.ref }}{% endif %}
+          {% include citations/mla.html %}
         </p>
 
         <p><strong>Chicago Style:</strong></p>
         <p class="text-muted small">
-          {{ page.author | split: ',' | first }}. "{{ page.title }}." {{ page.published.by }}, {{ page.year }}.
-          {% if page.ref %}{{ page.ref }}{% endif %}
+          {% include citations/chicago.html %}
         </p>
 
-        <p><strong>Korean Style (예시):</strong></p>
+        <p><strong>Korean Style 1:</strong></p>
         <p class="text-muted small">
-          {{ page.author }}. 「{{ page.title }}」. 『{{ page.published.by }}』, {{ page.year }}.
-          {% if page.ref %}{{ page.ref }}{% endif %}
+          {% include citations/korean1.html %}
+        </p>
+
+        <p><strong>Korean Style 2:</strong></p>
+        <p class="text-muted small">
+          {% include citations/korean2.html %}
         </p>
       </div>
+
 
       <!-- Summary -->
       {% if page.summary %}

@@ -1,0 +1,22 @@
+{% case page.category %}
+
+{% when "논문" %}
+
+{{ page.author | split: ',' | first }}. "{{ page.title }}." <em>{{ page.published.by }}</em> {{
+page.published.vol }}{% if page.published.page %}:{{ page.published.page }}{% endif %}, {{ page.year }}. {% if page.doi
+%}https://doi.org/{{ page.doi }}.{% elsif page.ref %}{{ page.ref }}.{% endif %}"
+
+{% when "저서역서" %}
+
+{{ page.author | split: ',' | first }}. <em>{{ page.title }}</em>. {{ page.published.by }}, {{ page.year }}. {% if
+page.doi %}https://doi.org/{{ page.doi }}.{% elsif page.ref %}{{ page.ref }}.{% endif %}"
+
+{% when "발표" %}
+
+{{ page.author | split: ',' | first }}. "{{ page.title }}." {{ page.published.by }}, {{ page.year }}. {% if
+page.ref %}{{ page.ref }}.{% endif %}"
+
+{% else %}
+
+
+{% endcase %}

@@ -4,6 +4,10 @@ title: Research list（ref form）
 subtitle: "Articles and books ..."
 ---
 
+<div class="pb-3 mb-4 border-bottom">
+	<h1 class="display-5 fw-bold">{{ page.title }}</h1>
+</div>
+
 {% for category in site.data.cons.categorys %}
 {% assign cworks = site.data.research | where: "category", category %}
 {% if cworks.size > 0 %}

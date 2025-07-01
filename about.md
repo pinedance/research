@@ -5,13 +5,9 @@ title: About me
 
 <div>
 
-{% include introduce_myself.md %}
-
-
+{% include me.md %}
 
 {% include scope.md %}
-
-
 
 {% include contact.md %}
 

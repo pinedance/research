@@ -1,15 +1,31 @@
 <div class="card mb-3" id="{{ work.year }}-{{ work.noo }}">
     <div class="card-body">
-        <div class="d-flex justify-content-between">
-            <h5 class="card-title">
-                {% if work.category == '논문' or work.category == '저서역서' %}
-                <a href="{{ site.baseurl }}/{% if work.category == '논문' %}article{% else %}book{% endif %}/{{ work.year }}-{{ work.noo }}"
-                    class="stretched-link text-decoration-none text-dark">{{ work.title }}</a>
-                {% else %}
-                {{ work.title }}
+        <div class="d-flex justify-content-between align-items-start">
+            <div class="pe-3">
+                <h5 class="card-title mb-3">
+                    {%- case work.category -%}
+                    {%- when "논문" -%}
+                    {%- assign item_icon = "bi-journal-text" -%}
+                    {%- assign item_dir = "articles" -%}
+                    {%- when "저서역서" -%}
+                    {%- assign item_icon = "bi-book" -%}
+                    {%- assign item_dir = "books" -%}
+                    {%- when "발표" -%}
+                    {%- assign item_icon = "bi-easel" -%}
+                    {%- assign item_dir = "presentations" -%}
+                    {%- else -%}
+                    {%- assign item_icon = "bi-file-text" -%}
+                    {%- assign item_dir = "" -%}
+                    {%- endcase -%}
+                    <i class="bi {{ item_icon }} me-2 text-muted"></i>
+                    <a href="{{ site.baseurl }}/{{ item_dir }}/{{ work.year }}-{{ work.noo }}"
+                        class="stretched-link text-decoration-none text-dark">{{ work.title }}</a>
+                </h5>
+                {% if work.titleEn %}
+                <h6 class="card-subtitle text-muted">{{ work.titleEn }}</h6>
                 {% endif %}
-            </h5>
-            <div class="text-nowrap">
+            </div>
+            <div class="text-nowrap position-relative z-1 flex-shrink-0">
                 {% if work.localfile %}
                 <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}"
                     target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}"
@@ -29,28 +45,28 @@
             </div>
         </div>
 
-        {% if work.titleEn %}
-        <h6 class="card-subtitle mb-2 text-muted">{{ work.titleEn }}</h6>
-        {% endif %}
-
-        <p class="card-text">
+        <p class="card-text mt-2">
             <small class="text-muted">{{ work.author }}. {{ work.published.by }}. {{ work.year }}{% if
                 work.published.vol %};{{ work.published.vol }}{% endif %}{% if work.published.page %}:{{
                 work.published.page }}{% endif %}</small>
         </p>
 
+        <!-- 
         {% if work.summary %}
         <div class="alert alert-light mt-3" role="alert">
-            {{ work.summary }}
+            {{ work.summary | markdownify }}
         </div>
-        {% endif %}
+        {% endif %} 
+-->
 
+        <!-- 
         {% if work.memo %}
         <ul class="list-unstyled mt-3">
             {% for memo in work.memo %}
-            <li class="text-muted"><small>{{ memo }}</small></li>
+            <li class="text-muted"><small>{{ memo | markdownify | remove: '<p>' | remove: '</p>' }}</small></li>
             {% endfor %}
         </ul>
         {% endif %}
+-->
     </div>
 </div>

@@ -4,8 +4,13 @@
   </a>
 
   <nav class="d-flex gap-3">
-    <a class="text-secondary" href="{{ site.baseurl }}/list">Research</a>
+    <a class="text-secondary" href="{{ site.baseurl }}/list/index">ALL</a>
+    <a class="text-secondary" href="{{ site.baseurl }}/list/books">Books</a>
+    <a class="text-secondary" href="{{ site.baseurl }}/list/articles">Articles</a>
+    <a class="text-secondary" href="{{ site.baseurl }}/list/presentations">Presentations</a>
     <a class="text-secondary" href="{{ site.baseurl }}/about">About</a>
-    <a class="text-secondary" href="https://cse.google.com/cse?cx=922b2b1497b5144e3" target="_blank">Search</a>
+    <!-- 
+    <a class="text-secondary" href="https://cse.google.com/cse?cx=922b2b1497b5144e3" target="_blank">Search</a> 
+    -->
   </nav>
 </header>

@@ -1,67 +1,70 @@
 ---
 layout: home
 ---
-{% assign work = page %}
 
-<div class="work-detail my-5">
+<div class="row my-5 g-5">
 
-  <!-- Page Title -->
-  <div class="pb-3 mb-4 border-bottom">
-    <h1 class="display-5 fw-bold">{{ work.title }}</h1>
-    {% if work.titleEn %}
-      <p class="lead text-muted mt-2">{{ work.titleEn }}</p>
-    {% endif %}
-  </div>
+  <!-- Main Content -->
+  <div class="col-md-8">
+    <div class="page-detail">
+      <!-- Page Title -->
+      <div class="pb-3 mb-4 border-bottom">
+        <h1 class="display-5 fw-bold">{{ page.title }}</h1>
+        {% if page.titleEn %}
+        <p class="lead text-muted mt-2">{{ page.titleEn }}</p>
+        {% endif %}
+      </div>
 
-  <!-- Metadata and Actions -->
-  <div class="row">
-    <div class="col-lg-8">
       <!-- Summary -->
-      {% if work.summary %}
-        <div class="mb-4">
-          <h3 class="mb-3">요약</h3>
-          <p class="fs-5">{{ work.summary }}</p>
-        </div>
+      {% if page.summary %}
+      <div class="mb-4">
+        <h3 class="mb-3">요약</h3>
+        <div class="fs-5">{{ page.summary | markdownify }}</div>
+      </div>
       {% endif %}
 
       <!-- Memo -->
-      {% if work.memo %}
-        <div class="mb-4">
-          <h3 class="mb-3">메모</h3>
-          <ul class="list-group list-group-flush">
-            {% for memo in work.memo %}
-              <li class="list-group-item">{{ memo | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+      {% if page.memo %}
+      <div class="mb-4">
+        <h3 class="mb-3">메모</h3>
+        <ul class="list-group list-group-flush">
+          {% for memo in page.memo %}
+          <li class="list-group-item">{{ memo | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
     </div>
-    <div class="col-lg-4">
-      <div class="card sticky-top" style="top: 2rem;">
+  </div>
+
+  <!-- Sidebar -->
+  <div class="col-md-4">
+    <div class="sticky-top" style="top: 2rem;">
+      <div class="card shadow-sm">
         <div class="card-header">
-          <h5 class="mb-0">정보</h5>
+          <h5 class="my-0 fw-normal">정보</h5>
         </div>
         <div class="card-body">
-          <dl class="mb-0">
-            <dt>저자</dt>
-            <dd>{{ work.author }}</dd>
-            <dt>출판</dt>
-            <dd class="text-muted">{{ work.published.by }}. {{ work.year }}{% if work.published.vol %};{{ work.published.vol }}{% endif %}{% if work.published.page %}:{{ work.published.page }}{% endif %}</dd>
-          </dl>
-        </div>
-        <div class="card-footer bg-transparent border-top-0">
-            <div class="d-grid gap-2">
-                {% if work.localfile %}
-                <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}" target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}" class="btn btn-primary">
-                    <i class="bi-cloud-arrow-down-fill me-2"></i>다운로드
-                </a>
-                {% endif %}
-                {% if work.ref %}
-                <a href="{{ work.ref }}" target="_blank" class="btn btn-outline-secondary">
-                    <i class="bi-link-45deg me-2"></i>외부 링크
-                </a>
-                {% endif %}
-            </div>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li class="mb-2"><strong>저자:</strong> {{ page.author }}</li>
+            <li class="mb-2">
+              <strong>출판:</strong>
+              {{ page.published.by }}. {{ page.year }}{% if page.published.vol %};{{ page.published.vol }}{% endif %}{% if page.published.page %}:{{ page.published.page }}{% endif %}
+            </li>
+          </ul>
+
+          <div class="d-grid gap-2">
+            {% if page.localfile %}
+            <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ page.year }}-{{ page.noo }}.{{ page.localfile }}" target="_blank" download="({{page.author}}){{ page.title }}.{{ page.localfile }}" class="btn btn-primary">
+              <i class="bi-cloud-arrow-down-fill me-2"></i>다운로드
+            </a>
+            {% endif %}
+            {% if page.ref %}
+            <a href="{{ page.ref }}" target="_blank" class="btn btn-outline-secondary">
+              <i class="bi-link-45deg me-2"></i>외부 링크
+            </a>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>

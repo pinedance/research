@@ -52,8 +52,8 @@ port: 8384
 page_gen-dirs: false
 page_gen:
 - data: research
-  template: article
-  dir: article
+  template: page_gen/article
+  dir: articles
   # index_files: [true|false]
   # name: [field used to generate the filename]
   name_expr: record["year"] + "-" + record["noo"]
@@ -65,8 +65,8 @@ page_gen:
   # page_data_prefix: [prefix used to name variables]
   debug: false
 - data: research
-  template: book
-  dir: book
+  template: page_gen/book
+  dir: books
   # index_files: [true|false]
   # name: [field used to generate the filename]
   name_expr: record["year"] + "-" + record["noo"]
@@ -75,5 +75,18 @@ page_gen:
   # extension: [extension used to generate the filename.]
   # filter: [property to filter data records by]
   filter_condition: "record['category'] == '저서역서'"
+  # page_data_prefix: [prefix used to name variables]
+  debug: false
+- data: research
+  template: page_gen/presentation
+  dir: presentations
+  # index_files: [true|false]
+  # name: [field used to generate the filename]
+  name_expr: record["year"] + "-" + record["noo"]
+  title: title
+  # title_expr: [a Ruby expression to generate the filename (alternative to title)]
+  # extension: [extension used to generate the filename.]
+  # filter: [property to filter data records by]
+  filter_condition: "record['category'] == '발표'"
   # page_data_prefix: [prefix used to name variables]
   debug: false

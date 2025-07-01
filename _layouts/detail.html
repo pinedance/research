@@ -3,9 +3,7 @@ layout: home
 ---
 
 <div class="row my-5 g-5">
-
-  <!-- Main Content -->
-  <div class="col-md-8">
+  <div class="col-md-10 mx-auto">
     <div class="page-detail">
       <!-- Page Title -->
       <div class="pb-3 mb-4 border-bottom">
@@ -13,6 +11,79 @@ layout: home
         {% if page.titleEn %}
         <p class="lead text-muted mt-2">{{ page.titleEn }}</p>
         {% endif %}
+      </div>
+
+      <!-- Thumbnail -->
+      {% if page.thumbnailfile %}
+      <div class="text-center mb-4">
+        <img
+          src="{{ site.baseurl }}{{ site.custom.thumbnailpath }}/{{ page.year }}-{{ page.noo }}.{{ page.thumbnailfile }}"
+          class="img-fluid rounded" alt="Thumbnail">
+      </div>
+      {% else %}
+      <div class="text-center mb-4">
+        <img src="https://placehold.co/400x600" class="img-fluid rounded" alt="Placeholder Thumbnail">
+      </div>
+      {% endif %}
+
+      <!-- Bibliography -->
+      <div class="pb-3 mb-4 border-bottom">
+        <h5 class="my-0 fw-normal">서지사항</h5>
+      </div>
+      <ul class="list-unstyled mt-3 mb-4">
+        <li class="mb-2"><strong>저자:</strong> {{ page.author }}</li>
+        <li class="mb-2">
+          <strong>출판:</strong>
+          {{ page.published.by }}. {{ page.year }}{% if page.published.vol %};{{ page.published.vol }}{% endif %}{%
+          if
+          page.published.page %}:{{ page.published.page }}{% endif %}
+        </li>
+      </ul>
+
+      <div class="d-grid gap-2 mb-4">
+        {% if page.localfile %}
+        <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ page.year }}-{{ page.noo }}.{{ page.localfile }}"
+          target="_blank" download="({{page.author}}){{ page.title }}.{{ page.localfile }}" class="btn btn-primary">
+          <i class="bi-cloud-arrow-down-fill me-2"></i>다운로드
+        </a>
+        {% endif %}
+        {% if page.ref %}
+        <a href="{{ page.ref }}" target="_blank" class="btn btn-outline-secondary">
+          <i class="bi-link-45deg me-2"></i>외부 링크
+        </a>
+        {% endif %}
+      </div>
+
+      <!-- Citation -->
+      <div class="pb-3 mt-5 mb-4 border-bottom">
+        <h5 class="my-0 fw-normal">인용</h5>
+      </div>
+      <div class="citation-styles mb-4">
+        <p><strong>APA Style:</strong></p>
+        <p class="text-muted small">
+          {{ page.author | split: ',' | first }}. ({{ page.year }}). <em>{{ page.title }}</em>. {{ page.published.by
+          }}.
+          {% if page.ref %}{{ page.ref }}{% endif %}
+        </p>
+
+        <p><strong>MLA Style:</strong></p>
+        <p class="text-muted small">
+          {{ page.author | split: ',' | first }}. "{{ page.title }}." <em>{{ page.published.by }}</em>, {{ page.year
+          }}.
+          {% if page.ref %}{{ page.ref }}{% endif %}
+        </p>
+
+        <p><strong>Chicago Style:</strong></p>
+        <p class="text-muted small">
+          {{ page.author | split: ',' | first }}. "{{ page.title }}." {{ page.published.by }}, {{ page.year }}.
+          {% if page.ref %}{{ page.ref }}{% endif %}
+        </p>
+
+        <p><strong>Korean Style (예시):</strong></p>
+        <p class="text-muted small">
+          {{ page.author }}. 「{{ page.title }}」. 『{{ page.published.by }}』, {{ page.year }}.
+          {% if page.ref %}{{ page.ref }}{% endif %}
+        </p>
       </div>
 
       <!-- Summary -->
@@ -34,39 +105,6 @@ layout: home
         </ul>
       </div>
       {% endif %}
-    </div>
-  </div>
-
-  <!-- Sidebar -->
-  <div class="col-md-4">
-    <div class="sticky-top" style="top: 2rem;">
-      <div class="card shadow-sm">
-        <div class="card-header">
-          <h5 class="my-0 fw-normal">정보</h5>
-        </div>
-        <div class="card-body">
-          <ul class="list-unstyled mt-3 mb-4">
-            <li class="mb-2"><strong>저자:</strong> {{ page.author }}</li>
-            <li class="mb-2">
-              <strong>출판:</strong>
-              {{ page.published.by }}. {{ page.year }}{% if page.published.vol %};{{ page.published.vol }}{% endif %}{% if page.published.page %}:{{ page.published.page }}{% endif %}
-            </li>
-          </ul>
-
-          <div class="d-grid gap-2">
-            {% if page.localfile %}
-            <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ page.year }}-{{ page.noo }}.{{ page.localfile }}" target="_blank" download="({{page.author}}){{ page.title }}.{{ page.localfile }}" class="btn btn-primary">
-              <i class="bi-cloud-arrow-down-fill me-2"></i>다운로드
-            </a>
-            {% endif %}
-            {% if page.ref %}
-            <a href="{{ page.ref }}" target="_blank" class="btn btn-outline-secondary">
-              <i class="bi-link-45deg me-2"></i>외부 링크
-            </a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>

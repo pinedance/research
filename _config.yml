@@ -44,6 +44,7 @@ exclude:
 
 custom:
   localfilepath: /resources
+  thumbnailpath: /public/thumbnails
 
 # Build settings
 host: localhost

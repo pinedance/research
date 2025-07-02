@@ -258,19 +258,19 @@
     vol: 27(1)
     page: "159-168"
 
-- noo: "06"
-  category: "논문"
-  title: 한의학지식정보자원 DB구축에 있어서 지식고고학적 가중치부여의 의의와 실제적용방안 연구
-  titleEn: Research of Historic Knowledge Based Traditional Korean Medicine(TKM) Database System
-  ref: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001439756
-  localfile: pdf
-  thumbnailfile: png
-  year: "2010"
-  author: 오준호, 안상우, 김남일, 차웅석
-  published:
-    by: 한국한의학연구원논문집
-    vol: 16(1)
-    page: "69-84"
+# - noo: "06"
+#   category: "논문"
+#   title: 한의학지식정보자원 DB구축에 있어서 지식고고학적 가중치부여의 의의와 실제적용방안 연구
+#   titleEn: Research of Historic Knowledge Based Traditional Korean Medicine(TKM) Database System
+#   ref: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001439756
+#   localfile: pdf
+#   thumbnailfile: png
+#   year: "2010"
+#   author: 오준호, 안상우, 김남일, 차웅석
+#   published:
+#     by: 한국한의학연구원논문집
+#     vol: 16(1)
+#     page: "69-84"
 
 - noo: "07"
   category: "논문"
@@ -464,7 +464,7 @@
 
 - noo: "08"
   category: "논문"
-  title: "『침구경험방』을 통해 본 17세기 조선 의료와 침구기법"
+  title: "침구경험방을 통해 본 17세기 조선 의료와 침구기법"
   titleEn: The 17th century Medical Service and Acupuncture & Moxibustion Technique in the period of Joseon Dynasty viewed through ‘Chimgugyeongheombang’
   ref: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001595068
   localfile: pdf
@@ -753,7 +753,7 @@
   category: "논문"
   title: 개의 질병에 사용된 동아시아 전통의학 처방 연구
   titleEn: Orthodox Oriental Medicine in East Asia used for Canine Diseases
-  ref: http://society.kisti.re.kr/sv/SV_svpsbs03VR.do?method=detail&menuid=1&subid=11&cn2=DJHHBH_2013_v22n1_57
+  ref: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001792794
   localfile: pdf
   thumbnailfile: png
   year: "2013"
@@ -785,7 +785,7 @@
   category: "논문"
   title: 군진의서(軍陣醫書) 행군방편편방(行軍方便便方)의 구성과 내용
   titleEn: Composition and Contents of Haeng Gun Bang Pyeon Pyeon Bang, a Military Medicine Literature
-  ref: http://society.kisti.re.kr/sv/SV_svpsbs03VR.do?method=detail&menuid=1&subid=11&cn2=DJHHBH_2014_v22n2_57
+  ref: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001849375
   localfile: pdf
   thumbnailfile: png
   year: "2014"
@@ -815,7 +815,7 @@
   category: "논문"
   title: 계층적 군집분석(hierarchical clustering)을 통한 침구자생경(鍼灸資生經) 경혈 선택 요인 분석
   titleEn: Study on quantization of Korean medicine terminology concept：for disease symptom terms of Compilation of Formulas and Medicinals Addendum
-  ref: http://society.kisti.re.kr/sv/SV_svpsbs03VR.do?method=detail&menuid=1&subid=11&cn2=DJHHBH_2014_v23n1_115
+  ref: https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201426247306393
   localfile: pdf
   thumbnailfile: png
   year: "2014"
@@ -848,6 +848,7 @@
   title: 〔국역〕침구극비전
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20151214_geukbi"
+  thumbnailfile: png
   year: "2015"
   author: 김덕방 원저，박상영 오준호 국역
   published:
@@ -919,6 +920,7 @@
   title: 〔국역〕상한경험방
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=98775245
+  thumbnailfile: png
   year: "2016"
   author: 소백누인 원저，오준호 박상영 국역
   published:
@@ -943,7 +945,7 @@
   category: "발표"
   title: 17-18세기 조선의 침 그 종류와 형태
   titleEn: The Types and Forms of Acupuncture Needles from the Chosŏn Period in the 17th and 18th Centuries
-  ref: http://www.basicmed.org/2016/index2.html?lkind=111&mkind=338
+  ref: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002236198
   localfile: pdf
   thumbnailfile: png
   year: "2016"
@@ -956,6 +958,7 @@
   title: 〔국역〕제세보감
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20161130_jese"
+  thumbnailfile: png
   year: "2016"
   author: 문기홍 원저，구현희 오준호 국역
   published:
@@ -969,6 +972,7 @@
   title: 〔국역〕경보신편
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?partner=rss&ISBN=K962531399
+  thumbnailfile: jpg
   year: "2017"
   author: 원저미상，구민석 오준호 국역
   published:
@@ -1008,6 +1012,7 @@
   title: 내 손안에 동의보감（원문강독편）
   titleEn:
   ref: http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=129873297
+  thumbnailfile: png
   year: "2017"
   author: 허준 원저，한국한의학연구원 발행
   published:
@@ -1019,6 +1024,7 @@
   title: 〔국역〕장진요편
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20171211_jjyopyeon"
+  thumbnailfile: png
   year: "2017"
   author: 송계(松溪) 원저，오준호 국역
   published:
@@ -1078,6 +1084,7 @@
   title: "〔국역〕상한명리론"
   titleEn: "Sanghanmyeonglilon"
   ref: "https://info.mediclassics.kr/bookshelf/books/20181212_shmyungri"
+  thumbnailfile: png
   year: "2018"
   author: 성무기(成無己) 원저，오준호 국역
   published:
@@ -1133,6 +1140,7 @@
   title: "〔국역〕상한명리속론"
   titleEn: "Sanghanmyeonglisoklon"
   ref: "https://info.mediclassics.kr/bookshelf/books/20191213_shsokron"
+  thumbnailfile: png
   year: "2019"
   author: 도화(陶華) 원저，오준호 국역
   published:
@@ -1147,6 +1155,7 @@
   title: 경혈해설(經穴解說)
   titleEn:
   ref: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=237913565"
+  thumbnailfile: png
   year: "2020"
   author: 후지모토 렌푸 원저，박상영 오준호 국역
   published:
@@ -1173,6 +1182,7 @@
   title: 〔국역〕제중시(濟衆詩)
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20201210_jejungsi"
+  thumbnailfile: png
   year: "2020"
   author: "원작자 미상, 오준호 국역"
   published:
@@ -1227,6 +1237,7 @@
   title: 〔국역〕한객치험(韓客治驗)
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20211210_hangaek"
+  thumbnailfile: png
   year: "2021"
   author: 히구치 준소(桶口淳叟) 지음，오준호 국역
   published:
@@ -1266,6 +1277,7 @@
   title: "조선의서지 朝鮮醫書誌"
   titleEn: 
   ref: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=307495547"
+  thumbnailfile: png
   year: "2022"
   author: "미키 사카에(지은이), 오준호(옮긴이)"
   published:
@@ -1294,6 +1306,7 @@
   title: 〔국역〕상한치례(傷寒治例)
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20231212_sangchi"
+  thumbnailfile: png
   year: "2023"
   author: 유순(劉純) 지음，오준호 국역
   published:
@@ -1334,6 +1347,7 @@
   title: 한의학 고문헌 분석을 통해 본 병증과 경혈의 관계 1
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/tkm_acu_symp_01"
+  thumbnailfile: png
   year: "2024"
   author: 오준호 지음
   published:
@@ -1345,6 +1359,7 @@
   title: 〔국역〕 일금방(一金方) 1
   titleEn:
   ref: "https://info.mediclassics.kr/bookshelf/books/20241210_ilgm1"
+  thumbnailfile: png
   year: "2024"
   author: 김홍제(金弘濟) 지음，오준호 국역
   published:

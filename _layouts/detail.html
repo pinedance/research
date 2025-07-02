@@ -4,10 +4,12 @@ layout: home
 
 <div class="row my-5 g-5">
   <div class="col-md-10 mx-auto">
+
     <div class="page-detail">
+
       <!-- Page Title -->
       <div class="pb-3 mb-4 border-bottom">
-        <h1 class="display-5 fw-bold">{{ page.title }}</h1>
+        <h1 class="display-6 fw-bold">{{ page.title }}</h1>
         {% if page.titleEn %}
         <p class="lead text-muted mt-2">{{ page.titleEn }}</p>
         {% endif %}
@@ -28,7 +30,7 @@ layout: home
 
       <!-- Bibliography -->
       <div class="pb-3 mb-4 border-bottom">
-        <h5 class="my-0 fw-normal">서지사항</h5>
+        <h2 class="my-0 fw-normal">서지사항</h2>
       </div>
       <ul class="list-unstyled mt-3 mb-4">
         <li class="mb-2"><strong>저자:</strong> {{ page.author }}</li>
@@ -56,7 +58,7 @@ layout: home
 
       <!-- Citation -->
       <div class="pb-3 mt-5 mb-4 border-bottom">
-        <h5 class="my-0 fw-normal">인용 Citation</h5>
+        <h2 class="my-0 fw-normal">인용 Citation</h2>
       </div>
       <div class="citation-styles mb-4">
         <p><strong>APA Style:</strong></p>
@@ -88,16 +90,20 @@ layout: home
 
       <!-- Summary -->
       {% if page.summary %}
+      <div class="pb-3 mt-5 mb-4 border-bottom">
+        <h2 class="my-0 fw-normal">요약</h2>
+      </div>
       <div class="mb-4">
-        <h3 class="mb-3">요약</h3>
         <div class="fs-5">{{ page.summary | markdownify }}</div>
       </div>
       {% endif %}
 
       <!-- Memo -->
       {% if page.memo %}
+      <div class="pb-3 mt-5 mb-4 border-bottom">
+        <h2 class="my-0 fw-normal">메모</h2>
+      </div>
       <div class="mb-4">
-        <h3 class="mb-3">메모</h3>
         <ul class="list-group list-group-flush">
           {% for memo in page.memo %}
           <li class="list-group-item">{{ memo | markdownify | remove: '<p>' | remove: '</p>' }}</li>

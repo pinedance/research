@@ -20,7 +20,7 @@ layout: home
       <div class="text-center mb-4">
         <img
           src="{{ site.baseurl }}{{ site.custom.thumbnailpath }}/{{ page.year }}-{{ page.noo }}.{{ page.thumbnailfile }}"
-          class="img-fluid rounded" alt="Thumbnail">
+          class="img-fluid rounded" alt="{{ page.title }} - Thumbnail">
       </div>
       {% else %}
       <div class="text-center mb-4">
@@ -57,34 +57,39 @@ layout: home
       </div>
 
       <!-- Citation -->
-      <div class="pb-3 mt-5 mb-4 border-bottom">
+      <div class="pb-3 mt-5 mb-4 border-bottom d-flex justify-content-between align-items-center">
         <h2 class="my-0 fw-normal">인용 Citation</h2>
+        <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#citationCollapse" aria-expanded="false" aria-controls="citationCollapse">
+          보기 / 숨기기
+        </button>
       </div>
-      <div class="citation-styles mb-4">
-        <p><strong>APA Style:</strong></p>
-        <p class="text-muted small">
-          {% include citations/ala.html %}
-        </p>
+      <div class="collapse" id="citationCollapse">
+        <div class="citation-styles mb-4">
+          <p><strong>APA Style:</strong></p>
+          <p class="text-muted small">
+            {% include citations/ala.html %}
+          </p>
 
-        <p><strong>MLA Style:</strong></p>
-        <p class="text-muted small">
-          {% include citations/mla.html %}
-        </p>
+          <p><strong>MLA Style:</strong></p>
+          <p class="text-muted small">
+            {% include citations/mla.html %}
+          </p>
 
-        <p><strong>Chicago Style:</strong></p>
-        <p class="text-muted small">
-          {% include citations/chicago.html %}
-        </p>
+          <p><strong>Chicago Style:</strong></p>
+          <p class="text-muted small">
+            {% include citations/chicago.html %}
+          </p>
 
-        <p><strong>Korean Style 1:</strong></p>
-        <p class="text-muted small">
-          {% include citations/korean1.html %}
-        </p>
+          <p><strong>Korean Style 1:</strong></p>
+          <p class="text-muted small">
+            {% include citations/korean1.html %}
+          </p>
 
-        <p><strong>Korean Style 2:</strong></p>
-        <p class="text-muted small">
-          {% include citations/korean2.html %}
-        </p>
+          <p><strong>Korean Style 2:</strong></p>
+          <p class="text-muted small">
+            {% include citations/korean2.html %}
+          </p>
+        </div>
       </div>
 
 

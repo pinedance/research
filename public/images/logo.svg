@@ -1,0 +1,13 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="pinetree">
+      <path d="M40 90V10L10 40M40 10L70 40" stroke="#2C5F2D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M25 60L10 75M55 60L70 75" stroke="#2C5F2D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M40 50V30" stroke="#2C5F2D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </defs>
+  <use xlink:href="#pinetree" x="10" y="0" width="80" height="100"/>
+  <text x="110" y="65" font-family="'Noto Sans KR', sans-serif" font-size="40" font-weight="bold" fill="#333333">
+    Research Log
+  </text>
+</svg>

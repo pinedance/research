@@ -1,74 +1,48 @@
-<div class="card mb-3" id="{{ work.year }}-{{ work.noo }}">
-    <div class="card-body">
-        <div class="d-flex justify-content-between align-items-start">
-            <div class="pe-3">
-                <h5 class="card-title mb-3">
-                    {%- case work.category -%}
-                    {%- when "논문" -%}
-                    {%- assign item_icon = "bi-journal-text" -%}
-                    {%- assign item_dir = "articles" -%}
-                    {%- when "저서역서" -%}
-                    {%- assign item_icon = "bi-book" -%}
-                    {%- assign item_dir = "books" -%}
-                    {%- when "발표" -%}
-                    {%- assign item_icon = "bi-easel" -%}
-                    {%- assign item_dir = "presentations" -%}
-                    {%- else -%}
-                    {%- assign item_icon = "bi-file-text" -%}
-                    {%- assign item_dir = "" -%}
-                    {%- endcase -%}
-                    <i class="bi {{ item_icon }} me-2 text-muted"></i>
-                    <a href="{{ site.baseurl }}/{{ item_dir }}/{{ work.year }}-{{ work.noo }}"
-                        class="stretched-link text-decoration-none text-dark">{{ work.title }}</a>
-                </h5>
-                {% if work.titleEn %}
-                <h6 class="card-subtitle text-muted">{{ work.titleEn }}</h6>
-                {% endif %}
-            </div>
-            <div class="text-nowrap position-relative z-1 flex-shrink-0">
-                {% if work.localfile %}
-                <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}"
-                    target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}"
-                    class="btn btn-light btn-sm" title="Download">
-                    <i class="bi-cloud-arrow-down-fill"></i>
-                </a>
-                {% endif %}
-                {% if work.ref %}
-                <a href="{{ work.ref }}" target="_blank" class="btn btn-light btn-sm" title="External Link">
-                    <i class="bi-link-45deg"></i>
-                </a>
-                {% endif %}
-                <!-- 
-                <a href="{{ site.baseurl }}/list.html#{{ work.year }}-{{ work.noo }}" class="btn btn-light btn-sm"
-                    title="Permalink">
-                    <i class="bi-paperclip"></i>
-                </a>
-                -->
-            </div>
-        </div>
+<div class="item-card" id="{{ work.year }}-{{ work.noo }}">
+  {%- case work.category -%}
+  {%- when "논문" -%}
+    {%- assign item_dir = "articles" -%}
+  {%- when "저서역서" -%}
+    {%- assign item_dir = "books" -%}
+  {%- when "발표" -%}
+    {%- assign item_dir = "presentations" -%}
+  {%- else -%}
+    {%- assign item_dir = "" -%}
+  {%- endcase -%}
 
-        <p class="card-text mt-2">
-            <small class="text-muted">{{ work.author }}. {{ work.published.by }}. {{ work.year }}{% if
-                work.published.vol %};{{ work.published.vol }}{% endif %}{% if work.published.page %}:{{
-                work.published.page }}{% endif %}</small>
-        </p>
+  <h3 class="item-card-title">
+    {{ work.title }}
+  </h3>
 
-        <!-- 
-        {% if work.summary %}
-        <div class="alert alert-light mt-3" role="alert">
-            {{ work.summary | markdownify }}
-        </div>
-        {% endif %} 
--->
+  {% if work.titleEn %}
+  <h6 class="card-subtitle text-muted mb-2">{{ work.titleEn }}</h6>
+  {% endif %}
 
-        <!-- 
-        {% if work.memo %}
-        <ul class="list-unstyled mt-3">
-            {% for memo in work.memo %}
-            <li class="text-muted"><small>{{ memo | markdownify | remove: '<p>' | remove: '</p>' }}</small></li>
-            {% endfor %}
-        </ul>
-        {% endif %}
--->
-    </div>
+  <p class="item-card-meta">
+    {{ work.author }} | {{ work.published.by }} | {{ work.year }}
+  </p>
+
+  {% if work.summary %}
+  <p class="item-card-summary">
+    {{ work.summary | strip_html | truncatewords: 30 }}
+  </p>
+  {% endif %}
+
+  <div class="mt-3">
+    <a href="{{ site.baseurl }}/{{ item_dir }}/{{ work.year }}-{{ work.noo }}" class="btn btn-primary btn-sm">
+      <i class="bi-box-arrow-in-right me-1"></i> View Details
+    </a>
+    {% if work.localfile %}
+    <a href="{{ site.baseurl }}{{ site.custom.localfilepath }}/{{ work.year }}-{{ work.noo }}.{{ work.localfile }}"
+       target="_blank" download="({{work.author}}){{ work.title }}.{{ work.localfile }}"
+       class="btn btn-secondary btn-sm" title="Download">
+      <i class="bi-cloud-arrow-down-fill me-1"></i> Download
+    </a>
+    {% endif %}
+    {% if work.ref %}
+    <a href="{{ work.ref }}" target="_blank" class="btn btn-outline-secondary btn-sm" title="External Link">
+      <i class="bi-link-45deg me-1"></i> View Source
+    </a>
+    {% endif %}
+  </div>
 </div>

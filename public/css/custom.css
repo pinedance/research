@@ -1,64 +1,204 @@
-.titleEn {
-	font-size: 14px;
+/*
+ * PineDance Research Log Custom Stylesheet
+ *
+ * Table of Contents:
+ * ------------------
+ * 1. CI Variables (Colors, Fonts)
+ * 2. Global Styles
+ * 3. Header & Logo
+ * 4. Card Layout for Items
+ * 5. Buttons & Links
+ * 6. Utility Classes
+ */
+
+/* 1. CI Variables
+-------------------------------------------------- */
+:root {
+  --primary-color: #2C5F2D;
+  /* Deep Green */
+  --secondary-color: #F5F5DC;
+  /* Soft Beige */
+  --text-color: #333333;
+  --accent-color: #97BC62;
+  /* Bright Green */
+  --background-color: #FFFFFF;
+  --border-color: #DEE2E6;
+  --card-background: #FAFAF5;
+
+  --font-family-base: 'Noto Sans KR', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }
 
-.memo {
-	font-size: 14px;
-}
-
-.summary {
-	font-size: 14px;
-}
-
-.author {
-	margin-bottom: 8px;
-}
-
-/* Modern Design Enhancements */
+/* 2. Global Styles
+-------------------------------------------------- */
 body {
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: #f8f9fa;
+  font-family: var(--font-family-base);
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-.main-header .text-secondary {
-    transition: color 0.2s ease-in-out;
+.container {
+  max-width: 960px;
 }
 
-.main-header .text-secondary:hover {
-    color: #0d6efd !important; /* Bootstrap primary color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
 }
 
-.card {
-    border: none;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-    transition: box-shadow 0.3s ease-in-out;
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
 }
 
-.card:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
-.card-title {
-    font-weight: 500;
+.border-bottom {
+  border-bottom-color: var(--border-color) !important;
 }
 
-.btn-light {
-    background-color: #e9ecef;
-    border-color: #e9ecef;
+/* 3. Header & Logo
+-------------------------------------------------- */
+.navbar {
+  background-color: var(--background-color) !important;
+  border-bottom-color: var(--border-color) !important;
 }
 
-.btn-light:hover {
-    background-color: #dee2e6;
-    border-color: #dee2e6;
+.navbar-brand img {
+  height: 40px;
 }
 
-.alert-light {
-    background-color: #e2e3e5;
-    border-left: 4px solid #0d6efd;
-    color: #41464b;
+.nav-link {
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color) !important;
+  transition: color 0.2s ease-in-out;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-color) !important;
+}
+
+/* 4. Card Layout for Items
+-------------------------------------------------- */
+.item-card {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.item-card:hover {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.item-card-title {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.item-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.item-card-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.item-card-summary {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+/* 5. Buttons & Links
+-------------------------------------------------- */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-weight: var(--font-weight-bold);
+}
+
+.btn-primary:hover {
+  background-color: #1E421E;
+  /* Darker Green */
+  border-color: #1E421E;
+}
+
+.btn-secondary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #fff;
+  font-weight: var(--font-weight-bold);
+}
+
+.btn-secondary:hover {
+  background-color: #7A9A4C;
+  /* Darker Accent */
+  border-color: #7A9A4C;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.meta-tag {
+  display: inline-block;
+  font-size: 1.0rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 0.2em 0.6em;
+  border-radius: 0.25rem;
+  margin-right: 0.2rem;
+}
+
+/* 6. Utility Classes
+-------------------------------------------------- */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-accent {
+  color: var(--accent-color) !important;
+}
+
+.bg-light-beige {
+  background-color: var(--secondary-color);
+}
+
+/* 7. Page Specific Styles
+-------------------------------------------------- */
+.page-detail h1 {
+  display: flex;
+  align-items: center;
 }

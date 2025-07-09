@@ -21,7 +21,7 @@
           <a class="nav-link" href="{{ site.baseurl }}/list/presentations">Presentations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+          <a class="nav-link" href="{{ site.author.homepage }}" target="_blank">Homepage</a>
         </li>
       </ul>
     </div>

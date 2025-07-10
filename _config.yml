@@ -47,6 +47,7 @@ exclude:
   - vendor
 
 custom:
+  imagepath: //research.pinedance.click/data/images
   localfilepath: /resources
   thumbnailpath: /public/thumbnails
 

@@ -208,7 +208,7 @@
   category: "저서역서"
   title: 〔국역〕실험단방
   titleEn:
-  ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1809_0001
+  ref: https://www.nl.go.kr/NL/contents/search.do?kwd=%EC%8B%A4%ED%97%98%EB%8B%A8%EB%B0%A9+%ED%95%9C%EA%B5%AD%ED%95%9C%EC%9D%98%ED%95%99%EC%97%B0%EA%B5%AC%EC%9B%90
   year: "2010"
   author: 유이태 원저，오준호 윤석희 황재운 노성완 안상우 국역
   published:
@@ -218,7 +218,7 @@
   category: "저서역서"
   title: 〔국역〕식의심감
   titleEn:
-  ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1812_0001
+  ref: https://www.nl.go.kr/NL/contents/search.do?kwd=%EC%8B%9D%EC%9D%98%EC%8B%AC%EA%B0%90+%ED%95%9C%EA%B5%AD%ED%95%9C%EC%9D%98%ED%95%99%EC%97%B0%EA%B5%AC%EC%9B%90
   year: "2010"
   author: 잠은 원저，오준호 안상우 국역
   published:
@@ -228,7 +228,7 @@
   category: "저서역서"
   title: 〔국역〕의원거강 01
   titleEn:
-  ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1810_0001
+  ref: https://www.nl.go.kr/NL/contents/search.do?kwd=%EC%9D%98%EC%9B%90%EA%B1%B0%EA%B0%95+%ED%95%9C%EA%B5%AD%ED%95%9C%EC%9D%98%ED%95%99%EC%97%B0%EA%B5%AC%EC%9B%90
   year: "2010"
   author: 수경거사 원저，구현희 이정현 차웅석 오준호 안상우 국역
   published:
@@ -238,7 +238,7 @@
   category: "저서역서"
   title: 〔국역〕의원거강 02
   titleEn:
-  ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1810_0002
+  ref: https://www.nl.go.kr/NL/contents/search.do?kwd=%EC%9D%98%EC%9B%90%EA%B1%B0%EA%B0%95+%ED%95%9C%EA%B5%AD%ED%95%9C%EC%9D%98%ED%95%99%EC%97%B0%EA%B5%AC%EC%9B%90
   year: "2010"
   author: 수경거사 원저，구현희 이정현 차웅석 오준호 안상우 국역
   published:
@@ -376,7 +376,7 @@
   category: "저서역서"
   title: 〔국역〕본초유함요령
   titleEn:
-  ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1971_0001
+  ref: https://www.nl.go.kr/NL/contents/search.do?kwd=%EB%B3%B8%EC%B4%88%EC%9C%A0%ED%95%A8%EC%9A%94%EB%A0%B9
   year: "2011"
   author: 현재덕 원저，권오민 오준호 안상우 국역
   published:
@@ -386,7 +386,7 @@
   category: "저서역서"
   title: 〔국역〕침구경험방
   titleEn:
-  ref: http://db.itkc.or.kr/itkcdb/text/mks/mksPrintViewPopup.jsp?idx=1970_0001
+  ref: https://www.nl.go.kr/NL/contents/search.do?kwd=%EC%B9%A8%EA%B5%AC%EA%B2%BD%ED%97%98%EB%B0%A9+%ED%95%9C%EA%B5%AD%ED%95%9C%EC%9D%98%ED%95%99%EC%97%B0%EA%B5%AC%EC%9B%90
   year: "2011"
   author: 허임 원저，오준호 안상우 국역
   published:
@@ -824,7 +824,7 @@
     by: 대전대학교 한의학연구소 논문집
     vol: 23(1)
     page: "115-124"
-  summary: '침구치료의 첫 단추는 근위취혈이다! [fig: <a href="data/images/침구자생경_클러스터링.png">hierarchical clustering</a>]'
+  summary: '침구치료의 첫 단추는 근위취혈이다! [fig: <a href="../data/images/침구자생경_클러스터링.png">hierarchical clustering</a>]'
 
 - noo: "04"
   category: "논문"
@@ -839,7 +839,7 @@
     by: 한국의사학회지
     vol: 27(2)
     page: "63-74"
-  summary: '청강의 처방은 이진탕, 사물탕, 사군자탕, 육미팔미의 변주다.[fig: <a href="data/images/CheongKangEuiGam/ClusterDensity.png">cluster</a>(<a href="data/images/CheongKangEuiGam/ClusterDensity2.png">확대</a>), <a href="data/images/CheongKangEuiGam/Density.png">density</a>(<a href="data/images/CheongKangEuiGam/Density2.png">확대</a>)]'
+  summary: '청강의 처방은 이진탕, 사물탕, 사군자탕, 육미팔미의 변주다.[fig: <a href="../data/images/CheongKangEuiGam/ClusterDensity.png">cluster</a>(<a href="../data/images/CheongKangEuiGam/ClusterDensity2.png">확대</a>), <a href="../data/images/CheongKangEuiGam/Density.png">density</a>(<a href="../data/images/CheongKangEuiGam/Density2.png">확대</a>)]'
 
 # 2015
 
@@ -859,14 +859,15 @@
   category: "발표"
   title: Analysis of the Co-occurrence of Acupoints and Pathologies Documented in the Classical Acupuncture Literature
   titleEn: Analysis of the Co-occurrence of Acupoints and Pathologies Documented in the Classical Acupuncture Literature
-  ref: http://www.imr-cite.com/article/S2213-4220(15)00271-1/abstract
+  # ref: http://www.imr-cite.com/article/S2213-4220(15)00271-1/abstract
+  ref: "http://www.mjmedi.com/news/articleView.html?idxno=29013"
   localfile: pdf
   thumbnailfile: png
   year: "2015"
   author: Junho Oh
   published:
     by: 2015 ICCMR (Poster)
-  summary: '이렇게 표현하니까 병증과 경혈의 관계가 한눈에 보이지? [Related app: <a target="_blank" href="http://pinedance.github.io/demo.html#/accupoints-pathologies">accupoints-pathologies Demo</a>]'
+  summary: '병증과 경혈의 관계를 표현해 보자.'
 
 - noo: "03"
   category: "논문"
@@ -896,7 +897,7 @@
     by: 대한본초학회지
     vol: 30(3)
     page: "63-68"
-  summary: '병증-본초 association measuring에서 TF-IDF를 응용한 HF-IDF가 reasonable하다. [Related app: <a target="_blank" href="http://pinedance.github.io/demo.html#/HF-IFF">HF-IFF Demo</a>]'
+  summary: '병증-본초 association measuring에서 TF-IDF를 응용한 HF-IDF를 사용할 수 있다.'
 
 - noo: "05"
   category: "논문"
@@ -998,7 +999,8 @@
   category: "발표"
   title: 계량적 분석을 통한 한국 전통 의학 주요 의서의 특징 비교
   titleEn:
-  ref: http://www.koreaddm.org/
+  # ref: http://www.koreaddm.org/
+  ref: http://www.mjmedi.com/news/articleView.html?idxno=32851
   localfile: pdf
   thumbnailfile: png
   year: "2017"
@@ -1126,9 +1128,10 @@
 
 - noo: "03"
   category: "저서역서"
-  title: 〔국역〕의방유취41（구설문1，구설문2）
+  title: 〔국역〕의방유취 41（구설문1，구설문2）
   titleEn:
-  ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=858&GC=GD0E"
+  ref: "https://product.kyobobook.co.kr/detail/S000001278282"
+  thumbnailfile: jpg
   year: "2019"
   author: "내의원 지음, 오준호 옮김"
   published:
@@ -1191,9 +1194,10 @@
 
 - noo: "04"
   category: "저서역서"
-  title: 〔국역〕의방유취49（제기문1，제기문2）
+  title: 〔국역〕의방유취 49（제기문1，제기문2）
   titleEn:
-  ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=913&GC=GD0E0F"
+  ref: "https://product.kyobobook.co.kr/detail/S000001278321"
+  thumbnailfile: jpg
   year: "2020"
   author: 내의원 지음，오준호 옮김
   published:
@@ -1246,9 +1250,10 @@
 
 - noo: "04"
   category: "저서역서"
-  title: 〔국역〕의방유취50（제기문3，제기문4）
+  title: 〔국역〕의방유취 50（제기문3，제기문4）
   titleEn:
-  ref: "http://book.sejongkorea.org/?act=shop.goods_view&CM=938&GC=GD0E0F"
+  ref: "https://product.kyobobook.co.kr/detail/S000061449659"
+  thumbnailfile: jpg
   year: "2021"
   author: "내의원 지음, 오준호 옮김"
   published:
@@ -1315,9 +1320,9 @@
 
 - noo: "03"
   category: "저서역서"
-  title: 〔국역〕의방유취66（해수문1）
+  title: 〔국역〕의방유취 66（해수문1）
   titleEn:
-  ref: "http://book.sejongkorea.org/"
+  ref: "https://search.kyobobook.co.kr/search?keyword=%EC%9D%98%EB%B0%A9%EC%9C%A0%EC%B7%A8+66&gbCode=TOT&target=total"
   year: "2023"
   author: 내의원 지음，오준호 옮김
   published:

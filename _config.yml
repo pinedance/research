@@ -31,7 +31,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
 github_username:  pinedance
 
-google_analytics: UA-72863252-5
+google_analytics: G-LLPXGJGZW2
 
 # Build settings
 # markdown: kramdown

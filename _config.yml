@@ -39,6 +39,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-datapage-generator
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

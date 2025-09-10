@@ -58,8 +58,8 @@ port: 8384
 page_gen-dirs: false
 page_gen:
 - data: research
-  template: page_gen/article
-  dir: articles
+  template: page_gen/papers
+  dir: papers
   # index_files: [true|false]
   # name: [field used to generate the filename]
   name_expr: record["year"] + "-" + record["noo"]

@@ -15,7 +15,7 @@
           <a class="nav-link" href="{{ site.baseurl }}/list/books">Books</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/list/articles">Articles</a>
+          <a class="nav-link" href="{{ site.baseurl }}/list/papers">Papers</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ site.baseurl }}/list/presentations">Presentations</a>

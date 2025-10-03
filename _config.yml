@@ -19,10 +19,7 @@ author:
   email: "pinedance@gmail.com"
   homepage: "https://www.pinedance.click/"
   aboutme: "https://www.pinedance.click//aboutme/"
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Research Log of Junho Oh
 
 url: "https://research.pinedance.click" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -58,7 +55,7 @@ port: 8384
 page_gen-dirs: false
 page_gen:
 - data: research
-  template: page_gen/papers
+  template: page_gen/paper
   dir: papers
   # index_files: [true|false]
   # name: [field used to generate the filename]

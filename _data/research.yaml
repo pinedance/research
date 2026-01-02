@@ -1371,3 +1371,29 @@
     by: 한국한의학연구원
     date: "2024-12-10"
 
+# 2025
+
+- noo: "01"
+  category: "저서역서"
+  title: 한의학 고문헌 분석을 통해 본 병증과 경혈의 관계 2
+  titleEn:
+  ref: "https://info.mediclassics.kr/bookshelf/books/tkm_acu_symp_02"
+  thumbnailfile: png
+  year: "2025"
+  author: 오준호 지음
+  published:
+    by: 한국한의학연구원
+    date: "2025-07-31"
+
+- noo: "02"
+  category: "저서역서"
+  title: 〔국역〕 일금방(一金方) 2
+  titleEn:
+  ref: "https://info.mediclassics.kr/bookshelf/books/20251110_ilgm2"
+  thumbnailfile: png
+  year: "2025"
+  author: 김홍제(金弘濟) 지음，오준호 국역
+  published:
+    by: 한국한의학연구원
+    date: "2025-11-10"
+
